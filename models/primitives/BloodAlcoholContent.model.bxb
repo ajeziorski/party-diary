@@ -1,0 +1,3 @@
+integer (BloodAlcoholContent) {
+  description (The user's estimated blood alcohol content.)
+}

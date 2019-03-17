@@ -1,0 +1,25 @@
+result-view {
+  match {
+    DrinkRegistered (drinkRegistered)
+  }
+  render {
+    layout {
+      section {
+        content {
+          single-line {
+            text {
+              style (Detail_M)
+              value ("Success: #{value(drinkRegistered.ok)}")
+            }
+          }
+          single-line{
+            text{
+              style (Detail_M)
+              value("Registered a #{value(drinkRegistered.drinkPercentage)} % #{value(drinkRegistered.drinkType)}.")
+            }    
+          }
+        }
+      }
+    }
+  }
+}

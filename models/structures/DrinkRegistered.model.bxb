@@ -1,0 +1,15 @@
+structure (DrinkRegistered) {
+  description (Registration of a drink)
+  property (ok) {
+    type (DrinkRegistrationSuccess)
+    min (Required) max (One)
+  }
+  property (drinkType) {
+    type (Beverage)
+    min (Required) max (One)
+  }
+  property (drinkPercentage) {
+    type (AlcoholPercentage)
+    min (Required) max (One)
+  }
+}

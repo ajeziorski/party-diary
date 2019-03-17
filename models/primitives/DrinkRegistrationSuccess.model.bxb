@@ -1,0 +1,3 @@
+boolean (DrinkRegistrationSuccess) {
+  description (Whether a drink was successfully registered)
+}

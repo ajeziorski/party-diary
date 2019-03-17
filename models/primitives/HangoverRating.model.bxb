@@ -1,0 +1,3 @@
+integer (HangoverRating) {
+  description (The subjective rating of the user's hangover.)
+}

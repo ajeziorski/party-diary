@@ -1,0 +1,4 @@
+dialog (Concept) {
+  match: Beverage
+  template("name of beverage")
+}

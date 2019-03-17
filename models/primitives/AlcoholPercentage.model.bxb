@@ -1,0 +1,3 @@
+integer (AlcoholPercentage) {
+  description (The ethanol percentage of an alcoholic beverage.)
+}

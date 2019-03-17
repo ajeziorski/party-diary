@@ -1,0 +1,10 @@
+train (t-0a1wuf92hiyihkubdmcjvkvwb) {
+  utterance ("[g:DrinkRegistered] I drank a (vodka shot)[v:Beverage].")
+  plan (Y2BmUC3ISaxML8ovzUvRK0gsKqlMyUwsqtRzKcrMyw5KTc8sLkktSk1hUMauDKYCrJxBDrsip9Sy1KLE9FQGJgZGIGYAkowMIMAEwQA=)
+  last-modified (1552855946513)
+}
+train (t-0uxk0yf6877ys3tvpkiwqagc5) {
+  utterance ("[g:DrinkRegistered] I'm having a (5)[v:AlcoholPercentage] % (beer)[v:Beverage].")
+  plan (Y2BhUC3ISaxML8ovzUvRK0gsKqlMyUwsqtRzKcrMyw5KTc8sLkktSk1hUMauDKYCrJxBHbsix5zk/Iz8nIDUouTUvJLE9FQGOewKnVLLUotA8swMjAxMQJIBSIMgBID4YFEA)
+  last-modified (1552855061495)
+}

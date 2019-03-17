@@ -1,0 +1,4 @@
+dialog (Concept) {
+  match: DrinkRegistrationSuccess
+  template("success in drink registraion")
+}

@@ -1,0 +1,15 @@
+capsule {
+  id (playground.partydiary)
+  version (0.1.0)
+  format (3)
+  targets {
+    target (bixby-mobile-en-US)
+  }
+// capsule-imports {
+//    import (viv.measurement) {
+//      as (measurement)
+//      version (2.12.0)
+//    }
+//  }
+}
+

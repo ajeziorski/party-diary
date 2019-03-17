@@ -1,0 +1,23 @@
+action (RegisterDrink) {
+  description (Register a drink)
+  collect {
+    input (drinkType) {
+      type (Beverage)
+      min (Required) max (One)
+    }
+    input (drinkPercentage) {
+      type (AlcoholPercentage)
+      min (Optional) max (One)
+      default-init {
+        intent {
+          goal {AlcoholPercentage}
+          value {
+            AlcoholPercentage (-1)
+          }
+        }
+      }
+    }
+  }
+  output (DrinkRegistered)
+  type (Resolver)
+}
