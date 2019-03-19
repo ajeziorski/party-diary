@@ -4,5 +4,10 @@ endpoints {
       accepted-inputs (drinkType, drinkPercentage)
       local-endpoint ("RegisterDrink.js")
     }
+    action-endpoint (RegisterBodyweight) {
+      accepted-inputs (bodyweight, bodyweightUnit)
+      local-endpoint ("RegisterBodyweight.js")
+    }
   }
 }
+  

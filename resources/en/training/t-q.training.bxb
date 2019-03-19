@@ -1,0 +1,5 @@
+train (t-q0gqazbmi88ut3sxjal0pmpcj) {
+  utterance ("[g:BodyweightRegistered] Register my bodyweight at (15)[v:measurement.WeightValue] (stone)[v:measurement.WeightUnit].")
+  plan (Y2Bh0CrISaxML8ovzUvRK0gsKqlMyUwsqtRzyk+pLE/NTM8oCUpNzywuSS1KTWHQwK4WpgKhh0GqLLNMLzc1sbi0KDU3Na9ELxwsHpqXWcIgjV0uLDGnNJWBmYGRgQlIMgBpEIQAZjBmYmAAAA==)
+  last-modified (1553030870565)
+}

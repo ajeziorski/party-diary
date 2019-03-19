@@ -1,0 +1,15 @@
+structure (BodyweightRegistered) {
+  description (Registration of bodyweight)
+  property (ok) {
+    type (BodyweightRegistrationSuccess)
+    min (Required) max (One)
+  }
+  property (bodyweight) {
+      type (measurement.WeightValue)
+      min (Required) max (One)
+  }
+    property (bodyweightUnit) {
+      type (measurement.WeightUnit)
+      min (Required) max (One)
+    }
+}

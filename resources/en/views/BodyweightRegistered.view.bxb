@@ -1,0 +1,25 @@
+result-view {
+  match {
+    BodyweightRegistered (bodyweightRegistered)
+  }
+  render {
+    layout {
+      section {
+        content {
+          single-line {
+            text {
+              style (Detail_M)
+              value ("Registering bodyweight: #{value(bodyweightRegistered.ok)}")
+            }
+          }
+          single-line{
+            text{
+              style (Detail_M)
+              value("#{value(bodyweightRegistered.bodyweight)} #{value(bodyweightRegistered.bodyweightUnit)}.")
+            }    
+          }
+        }
+      }
+    }
+  }
+}

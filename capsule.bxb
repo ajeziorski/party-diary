@@ -5,11 +5,11 @@ capsule {
   targets {
     target (bixby-mobile-en-US)
   }
-// capsule-imports {
-//    import (viv.measurement) {
-//      as (measurement)
-//      version (2.12.0)
-//    }
-//  }
+ capsule-imports {
+    import (viv.measurement) {
+      as (measurement)
+      version (2.12.0)
+    }
+  }
 }
 

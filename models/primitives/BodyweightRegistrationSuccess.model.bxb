@@ -1,0 +1,3 @@
+boolean (BodyweightRegistrationSuccess) {
+  description (Whether bodyweight was successfully registered)
+}

@@ -1,0 +1,12 @@
+dialog (Result) {
+  match {
+    BodyweightRegistered (registerResult) {
+      from-output: RegisterBodyweight(registerOutput)
+    }
+  }
+  choose (Random)
+  {
+    template("Registered your bodyweight as #{value(registerResult.bodyweight)} #{value(registerResult.bodyweightUnit)}.")
+    template("I will remember your bodyweight as #{value(registerResult.bodyweight)} #{value(registerResult.bodyweightUnit)}.")
+  }
+}

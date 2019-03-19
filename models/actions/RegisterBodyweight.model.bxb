@@ -1,0 +1,15 @@
+action (RegisterBodyweight) {
+  description (Register your bodyweight)
+  collect {
+    input (bodyweight) {
+      type (measurement.WeightValue)
+      min (Required) max (One)
+    }
+    input (bodyweightUnit) {
+      type (measurement.WeightUnit)
+      min (Required) max (One)
+    }
+  }
+  output (BodyweightRegistered)
+  type (Resolver)
+}
