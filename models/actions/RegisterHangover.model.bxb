@@ -1,0 +1,19 @@
+action (RegisterHangover) {
+  description (Register a hangover)
+  collect {
+    input (hangoverRating) {
+      type (HangoverRating)
+      min (Optional) max (One)
+      default-init {
+        intent {
+          goal {HangoverRating}
+          value {
+            HangoverRating (5)
+          }
+        }
+      }
+    }
+  }
+  output (HangoverRegistered)
+  type (Resolver)
+}

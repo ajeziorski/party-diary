@@ -1,0 +1,25 @@
+result-view {
+  match {
+    HangoverRegistered (hangoverRegistered)
+  }
+  render {
+    layout {
+      section {
+        content {
+          single-line {
+            text {
+              style (Detail_M)
+              value ("Success: #{value(hangoverRegistered.ok)}")
+            }
+          }
+          single-line{
+            text{
+              style (Detail_M)
+              value("Registered a #{value(hangoverRegistered.hangoverRating)} hangover.")
+            }    
+          }
+        }
+      }
+    }
+  }
+}

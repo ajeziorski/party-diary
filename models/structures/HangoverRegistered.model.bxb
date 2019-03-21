@@ -1,0 +1,11 @@
+structure (HangoverRegistered) {
+  description (Registration of a drink)
+  property (ok) {
+    type (DrinkRegistrationSuccess)
+    min (Required) max (One)
+  }
+  property (hangoverRating) {
+    type (HangoverRating)
+    min (Required) max (One)
+  }
+}

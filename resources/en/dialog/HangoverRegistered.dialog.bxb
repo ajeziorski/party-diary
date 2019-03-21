@@ -1,0 +1,19 @@
+dialog (Result) {
+  match {
+    HangoverRegistered (registerResult) {
+      from-output: RegisterHangover(registerOutput)
+    }
+  }
+  if (registerOutput.hangoverRating < 8)
+  {
+    choose (Random)
+    {
+      template("Registered a level ${value(registerResult.hangoverRating)} hangover.")
+      template("Registered a category ${value(registerResult.hangoverRating)} hangover.")
+    }
+  }
+  else
+  {
+    template("Registered a hangover rated ${value(registerResult.hangoverRating)}. I'm so sorry.")
+  }
+}

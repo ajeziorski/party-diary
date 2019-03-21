@@ -8,6 +8,9 @@ endpoints {
       accepted-inputs (bodyweight, bodyweightUnit)
       local-endpoint ("RegisterBodyweight.js")
     }
+    action-endpoint (RegisterHangover) {
+      local-endpoint ("RegisterHangover.js")
+    }
     action-endpoint (RequestBAC) {
       local-endpoint ("RequestBAC.js")
     }
