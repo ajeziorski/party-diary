@@ -1,5 +1,5 @@
 train (t-myhp2vc4n6hf2d9eao0bslq8z) {
-  utterance ("[g:BodyweightRegistered] My mass is (90)[v:measurement.WeightValue] (kilograms)[v:measurement.WeightUnit].")
-  plan (Y2Bh0CrISaxML8ovzUvRK0gsKqlMyUwsqtRzyk+pLE/NTM8oCUpNzywuSS1KTWHQwK4WpgKhh0GqLLNMLzc1sbi0KDU3Na9ELxwsHpqXWcIgjV0uLDGnNJWBmYGRgQlIMgBpEIQAZjBmYmAAAA==)
-  last-modified (1553030788782)
+  utterance ("[g:BodyweightRegistered] My mass is (90)[v:measurement.WeightValue] (kilograms)[v:measurement.WeightUnitName:Kilogram].")
+  plan (Y2Bh0CrISaxML8ovzUvRK0gsKqlMyUwsqtRzyk+pLE/NTM8oCUpNzywuSS1KTWHQwK4WpgKhh0GuLLNMLzc1sbi0KDU3Na9ELxwsHpqXWeKXmJvKII1dPiwxpzSVgZmBkYEJSDIAaRCEABAfLAoA)
+  last-modified (1553192733125)
 }

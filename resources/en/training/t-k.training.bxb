@@ -1,0 +1,5 @@
+train (t-kpw4nod9iizbjz0vlf8un4sky) {
+  utterance ([g:RequestBAC] How drunk am I?)
+  plan (Y2BiUCzISaxML8ovzUvRK0gsKqlMyUwsqtRzcnQOSk1OzSxLTWFQwK4kKLWwNLW4BKiSgREIGaAYSAIA)
+  last-modified (1553199314559)
+}

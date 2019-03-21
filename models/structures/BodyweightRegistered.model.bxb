@@ -9,7 +9,7 @@ structure (BodyweightRegistered) {
       min (Required) max (One)
   }
     property (bodyweightUnit) {
-      type (measurement.WeightUnit)
+      type (measurement.WeightUnitName)
       min (Required) max (One)
     }
 }

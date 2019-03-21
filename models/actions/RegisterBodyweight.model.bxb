@@ -6,7 +6,7 @@ action (RegisterBodyweight) {
       min (Required) max (One)
     }
     input (bodyweightUnit) {
-      type (measurement.WeightUnit)
+      type (measurement.WeightUnitName)
       min (Required) max (One)
     }
   }

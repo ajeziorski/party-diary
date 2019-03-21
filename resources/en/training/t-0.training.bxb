@@ -1,7 +1,7 @@
 train (t-0a1wuf92hiyihkubdmcjvkvwb) {
   utterance ("[g:DrinkRegistered] I drank a (vodka shot)[v:Beverage].")
   plan (Y2BmUC3ISaxML8ovzUvRK0gsKqlMyUwsqtRzKcrMyw5KTc8sLkktSk1hUMauDKYCrJxBDrsip9Sy1KLE9FQGJgZGIGYAkowMIMAEwQA=)
-  last-modified (1552855946513)
+  last-modified (1553197476790)
 }
 train (t-0uxk0yf6877ys3tvpkiwqagc5) {
   utterance ("[g:DrinkRegistered] I'm having a (5)[v:AlcoholPercentage] % (beer)[v:Beverage].")

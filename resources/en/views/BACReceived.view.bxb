@@ -1,0 +1,25 @@
+result-view {
+  match {
+    BACReceived (requestResult)
+  }
+  render {
+    layout {
+      section {
+        content {
+          single-line {
+            text {
+              style (Detail_M)
+              value ("Success: #{value(requestResult.ok)}")
+            }
+          }
+          single-line{
+            text{
+              style (Detail_M)
+              value("Got #{value(requestResult.BACValue)} plus minus #{value(requestResult.BACError)} parts per 10000.")
+            }    
+          }
+        }
+      }
+    }
+  }
+}

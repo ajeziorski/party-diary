@@ -1,3 +1,3 @@
-integer (BloodAlcoholContent) {
+integer (BAC) {
   description (The user's estimated blood alcohol content.)
 }

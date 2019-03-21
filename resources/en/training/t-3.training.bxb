@@ -1,5 +1,10 @@
+train (t-3do9ronh9l7awcx707wv3kmj1) {
+  utterance ([g:RequestBAC] Tell me my Blood Alcohol Content.)
+  plan (Y2BiUCzISaxML8ovzUvRK0gsKqlMyUwsqtRzcnQOSk1OzSxLTWFQwK4kKLWwNLW4BKiSgREIGaAYSAIA)
+  last-modified (1553199336228)
+}
 train (t-3qssiwzty679h4xhfncpkcj71) {
-  utterance ("[g:BodyweightRegistered] I weigh (180)[v:measurement.WeightValue] (pounds)[v:measurement.WeightUnit].")
-  plan (Y2Bh0CrISaxML8ovzUvRK0gsKqlMyUwsqtRzyk+pLE/NTM8oCUpNzywuSS1KTWHQwK4WpgKhh0GqLLNMLzc1sbi0KDU3Na9ELxwsHpqXWcIgjV0uLDGnNJWBmYGRgQlIMgBpEIQAZjBmYmAAAA==)
-  last-modified (1553030723372)
+  utterance ("[g:BodyweightRegistered] I weigh (180)[v:measurement.WeightValue] (pounds)[v:measurement.WeightUnitName:Pound].")
+  plan (Y2Bh0CrISaxML8ovzUvRK0gsKqlMyUwsqtRzyk+pLE/NTM8oCUpNzywuSS1KTWHQwK4WpgKhh0GuLLNMLzc1sbi0KDU3Na9ELxwsHpqXWeKXmJvKII1dPiwxpzSVgZmBkYEJSDIAaRCEABAfLAoA)
+  last-modified (1553192734547)
 }

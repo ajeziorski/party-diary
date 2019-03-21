@@ -1,0 +1,3 @@
+boolean (BACRequestSuccess) {
+  description (Whether BAC was successfully requested)
+}

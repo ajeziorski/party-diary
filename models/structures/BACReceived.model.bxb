@@ -1,0 +1,15 @@
+structure (BACReceived) {
+  description (Receival of a BAC value and error)
+  property (ok) {
+    type (BACRequestSuccess)
+    min (Required) max (One)
+  }
+  property (BACValue) {
+    type (BAC)
+    min (Required) max (One)
+  }
+  property (BACError) {
+    type (BACError)
+    min (Required) max (One)
+  }
+}

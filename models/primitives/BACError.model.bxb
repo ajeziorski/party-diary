@@ -1,0 +1,3 @@
+integer (BACError) {
+  description (The uncertainty of the user's estimated blood alcohol content.)
+}
