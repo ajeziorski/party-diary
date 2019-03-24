@@ -5,8 +5,8 @@ dialog (Result) {
     }
   }
   choose (Random) {
-      template("Your blood alcohol content is #{value(requestResult.BACValue)} plus minus #{value(requestResult.BACError)} parts per 10000.")
-      template("Your blood alcohol is at #{value(requestResult.BACValue)} plus minus #{value(requestResult.BACError)} parts per 10000.")
-      template("#{value(requestResult.BACValue)} plus minus #{value(requestResult.BACError)} parts per 10000.")
+      template("Your blood alcohol content is #{value(requestResult.BACValue)} plus minus #{value(requestResult.BACError)} parts per 1000.")
+      template("Your blood alcohol is at #{value(requestResult.BACValue)} plus minus #{value(requestResult.BACError)} parts per 1000.")
+      template("#{value(requestResult.BACValue)} plus minus #{value(requestResult.BACError)} parts per 1000.")
   }
 }

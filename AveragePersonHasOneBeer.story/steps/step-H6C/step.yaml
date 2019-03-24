@@ -1,0 +1,5 @@
+data:
+  aligned: >-
+    [g:BodyweightRegistered] My bodyweight is (70)[v:measurement.WeightValue]
+    (kilograms)[v:measurement.WeightUnitName:Kilogram]
+type: intent

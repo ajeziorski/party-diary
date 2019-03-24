@@ -1,0 +1,54 @@
+- request:
+    headers:
+      Accept-Charset: UTF-8
+      Accept-Encoding: gzip
+      User-Agent: Mozilla/5.0 (compatible) gzip
+    method: GET
+    url: 'https://ajeziorski.pythonanywhere.com/RegisterDrink/beer/3'
+  response:
+    headers:
+      $status: HTTP/1.1 200 OK
+      Connection: close
+      Content-Length: '12'
+      Content-Type: application/json
+      Date: 'Sun, 24 Mar 2019 11:48:02 GMT'
+      Server: openresty/1.9.15.1
+      X-Clacks-Overhead: GNU Terry Pratchett
+    responseFilename: webcache/ajeziorski.pythonanywhere.com-1-res.json
+    status: 200
+- request:
+    headers:
+      Accept-Charset: UTF-8
+      Accept-Encoding: gzip
+      User-Agent: Mozilla/5.0 (compatible) gzip
+    method: GET
+    url: 'https://ajeziorski.pythonanywhere.com/RegisterDrink/beer/3'
+  response:
+    headers:
+      $status: HTTP/1.1 200 OK
+      Connection: close
+      Content-Length: '12'
+      Content-Type: application/json
+      Date: 'Sun, 24 Mar 2019 11:50:32 GMT'
+      Server: openresty/1.9.15.1
+      X-Clacks-Overhead: GNU Terry Pratchett
+    responseFilename: webcache/ajeziorski.pythonanywhere.com-2-res.json
+    status: 200
+- request:
+    headers:
+      Accept-Charset: UTF-8
+      Accept-Encoding: gzip
+      User-Agent: Mozilla/5.0 (compatible) gzip
+    method: GET
+    url: 'https://ajeziorski.pythonanywhere.com/RegisterDrink/beer/3'
+  response:
+    headers:
+      $status: HTTP/1.1 200 OK
+      Connection: close
+      Content-Length: '12'
+      Content-Type: application/json
+      Date: 'Sun, 24 Mar 2019 11:56:09 GMT'
+      Server: openresty/1.9.15.1
+      X-Clacks-Overhead: GNU Terry Pratchett
+    responseFilename: webcache/ajeziorski.pythonanywhere.com-3-res.json
+    status: 200

@@ -15,7 +15,7 @@ result-view {
           single-line{
             text{
               style (Detail_M)
-              value("Got #{value(requestResult.BACValue)} plus minus #{value(requestResult.BACError)} parts per 10000.")
+              value("Got #{value(requestResult.BACValue)} ± #{value(requestResult.BACError)} ‰.")
             }    
           }
         }

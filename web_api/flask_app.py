@@ -8,6 +8,7 @@ DRINK_UNITS = 0.0
 
 app = Flask(__name__)
 
+
 @app.route('/')
 def check_hangover():
     return "current drink units: {}".format(DRINK_UNITS)
@@ -59,6 +60,6 @@ def request_bac():
 
 
 def calculate_bac():
-    BACValue = 806 * DRINK_UNITS * 1.2 / 0.58 / BODYWEIGHT
+    BACValue = 0.806 * DRINK_UNITS * 1.2 / 0.58 / BODYWEIGHT
     BACError = 0.3 * BACValue
-    return int(BACValue), int(BACError)
+    return "{:2.2f}".format(BACValue), "{:2.2f}".format(BACError)

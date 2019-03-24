@@ -1,0 +1,53 @@
+- request:
+    headers:
+      Accept-Charset: UTF-8
+      Accept-Encoding: gzip
+      User-Agent: Mozilla/5.0 (compatible) gzip
+    method: GET
+    url: 'https://ajeziorski.pythonanywhere.com/RequestBAC'
+  response:
+    headers:
+      $status: HTTP/1.1 500 INTERNAL SERVER ERROR
+      Connection: close
+      Content-Length: '291'
+      Content-Type: text/html
+      Date: 'Sun, 24 Mar 2019 11:49:11 GMT'
+      Server: openresty/1.9.15.1
+    responseFilename: webcache/ajeziorski.pythonanywhere.com-1-res.html
+    status: 500
+- request:
+    headers:
+      Accept-Charset: UTF-8
+      Accept-Encoding: gzip
+      User-Agent: Mozilla/5.0 (compatible) gzip
+    method: GET
+    url: 'https://ajeziorski.pythonanywhere.com/RequestBAC'
+  response:
+    headers:
+      $status: HTTP/1.1 200 OK
+      Connection: close
+      Content-Length: '79'
+      Content-Type: application/json
+      Date: 'Sun, 24 Mar 2019 11:50:33 GMT'
+      Server: openresty/1.9.15.1
+      X-Clacks-Overhead: GNU Terry Pratchett
+    responseFilename: webcache/ajeziorski.pythonanywhere.com-1-res.json
+    status: 200
+- request:
+    headers:
+      Accept-Charset: UTF-8
+      Accept-Encoding: gzip
+      User-Agent: Mozilla/5.0 (compatible) gzip
+    method: GET
+    url: 'https://ajeziorski.pythonanywhere.com/RequestBAC'
+  response:
+    headers:
+      $status: HTTP/1.1 200 OK
+      Connection: close
+      Content-Length: '48'
+      Content-Type: application/json
+      Date: 'Sun, 24 Mar 2019 11:56:10 GMT'
+      Server: openresty/1.9.15.1
+      X-Clacks-Overhead: GNU Terry Pratchett
+    responseFilename: webcache/ajeziorski.pythonanywhere.com-2-res.json
+    status: 200
