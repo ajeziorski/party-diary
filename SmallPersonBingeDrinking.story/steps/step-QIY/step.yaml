@@ -1,0 +1,5 @@
+data:
+  aligned: >-
+    [g:BodyweightRegistered] My mass is (120)[v:viv.measurement.WeightValue:120]
+    (pounds)[v:viv.measurement.WeightUnitName:Pound]
+type: intent

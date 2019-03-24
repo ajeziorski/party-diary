@@ -1,9 +1,13 @@
 from flask import Flask
 from flask import jsonify
 
+
 HANGOVER_RATING = 0
 BODYWEIGHT = 1.0
 DRINK_UNITS = 0.0
+WARNING_THREASHOLD = 3.0
+ULTRA_HANGOVER_WARNING_THREASHOLD = 6.0
+ULTRA_HANGOVER_RATING = 7
 
 
 app = Flask(__name__)
@@ -41,7 +45,14 @@ def normalize_bodyweight(bodyweight_unit, bodyweight):
 def register_drink(drink, percentage):
     global DRINK_UNITS
     DRINK_UNITS += calculate_drink_units(drink, percentage)
-    return jsonify({"ok": True})
+    extra_info = "."
+    if DRINK_UNITS > WARNING_THREASHOLD:
+        extra_info = "You shouldn't drink so much."
+    if DRINK_UNITS > ULTRA_HANGOVER_WARNING_THREASHOLD:
+        extra_info = "Warning! Last time you had this " \
+                     "much you experienced a level {} " \
+                     "hangover!.".format(ULTRA_HANGOVER_RATING)
+    return jsonify({"ok": True, "extraInfo": extra_info})
 
 
 def calculate_drink_units(drink, percentage):

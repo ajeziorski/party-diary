@@ -1,0 +1,3 @@
+data:
+  aligned: '[g:DrinkRegistered] I drank a (3)[v:AlcoholPercentage] % (beer)[v:Beverage]'
+type: intent

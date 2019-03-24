@@ -9,7 +9,9 @@ module.exports.function = function registerDrink (drinkType, drinkPercentage) {
       var registeredPercentage = drinkPercentage;
     }
   var response = http.getUrl("https://ajeziorski.pythonanywhere.com/RegisterDrink/" + drinkType.toLowerCase() + "/" + String(registeredPercentage), { format: "json", });
-  return {ok: true,
+  return {ok: response.ok,
          drinkType: drinkType,
-         drinkPercentage: drinkPercentage}
+         drinkPercentage: drinkPercentage,
+         extraInfo: response.extraInfo
+  }
 }

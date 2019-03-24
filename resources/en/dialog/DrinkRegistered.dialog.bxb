@@ -6,15 +6,10 @@ dialog (Result) {
   }
   if (registerOutput.drinkPercentage != -1)
   {
-    choose (Random)
-    {
-      template("Registered a ${list(registerResult.drinkPercentage, 'value')} %  ${value(registerResult.drinkType)}.")
-      template("Registered a ${list(registerResult.drinkPercentage, 'value')} %  ${value(registerResult.drinkType)}. Last time you had this much you experienced a level 7 hangover on the next day.")
-      template("Registered a ${list(registerResult.drinkPercentage, 'value')} %  ${value(registerResult.drinkType)}. You shouldn't drink so much.")
-    }
+     template("Registered a ${list(registerResult.drinkPercentage, 'value')} %  ${value(registerResult.drinkType)}. ${value(registerResult.extraInfo)}")
   }
   else
   {
-    template("Registered a ${value(registerResult.drinkType)}. Assuming a default alcohol percentage of 5%.")
+    template("Registered a ${value(registerResult.drinkType)}. Assuming a default alcohol percentage of 5%. ${value(registerResult.extraInfo)}")
   }
 }

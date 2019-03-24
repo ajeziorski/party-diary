@@ -1,0 +1,3 @@
+text (DrinkRegistrationExtra) {
+  description (Extra information returned by the server during drink registration)
+}

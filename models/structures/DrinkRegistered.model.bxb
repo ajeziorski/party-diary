@@ -12,4 +12,8 @@ structure (DrinkRegistered) {
     type (AlcoholPercentage)
     min (Required) max (One)
   }
+  property (extraInfo) {
+    type (DrinkRegistrationExtra)
+    min (Required) max (One)
+  }
 }
