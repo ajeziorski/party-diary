@@ -1,7 +1,5 @@
 module.exports.function = function requestBAC () {
-  var BACValue = 5;
-  var BACError = 2;
-  return {ok: true, 
-          BACValue: BACValue, 
-          BACError: BACError}
+  var http = require('http');
+  var response = http.getUrl("https://ajeziorski.pythonanywhere.com/RequestBAC", { format: "json", });
+  return response
 }
