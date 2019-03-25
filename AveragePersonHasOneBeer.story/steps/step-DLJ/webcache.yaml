@@ -51,3 +51,21 @@
       X-Clacks-Overhead: GNU Terry Pratchett
     responseFilename: webcache/ajeziorski.pythonanywhere.com-2-res.json
     status: 200
+- request:
+    headers:
+      Accept-Charset: UTF-8
+      Accept-Encoding: gzip
+      User-Agent: Mozilla/5.0 (compatible) gzip
+    method: GET
+    url: 'https://ajeziorski.pythonanywhere.com/RequestBAC'
+  response:
+    headers:
+      $status: HTTP/1.1 200 OK
+      Connection: close
+      Content-Length: '48'
+      Content-Type: application/json
+      Date: 'Mon, 25 Mar 2019 15:18:50 GMT'
+      Server: openresty/1.9.15.1
+      X-Clacks-Overhead: GNU Terry Pratchett
+    responseFilename: webcache/ajeziorski.pythonanywhere.com-1-res.json
+    status: 200
