@@ -11,5 +11,5 @@ action (RegisterBodyweight) {
     }
   }
   output (BodyweightRegistered)
-  type (Resolver)
+  type (Search)
 }

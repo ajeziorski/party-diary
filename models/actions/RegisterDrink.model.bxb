@@ -19,5 +19,5 @@ action (RegisterDrink) {
     }
   }
   output (DrinkRegistered)
-  type (Resolver)
+  type (Search)
 }

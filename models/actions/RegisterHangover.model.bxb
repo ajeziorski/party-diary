@@ -15,5 +15,5 @@ action (RegisterHangover) {
     }
   }
   output (HangoverRegistered)
-  type (Resolver)
+  type (Search)
 }
